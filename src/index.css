@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Outfit:wght@300;400;500;600&family=JetBrains+Mono:wght@300;400&display=swap');
+
+html { scroll-behavior: smooth; }
+body { cursor: none; }
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+
+@theme {
+  --font-playfair: "Playfair Display", serif;
+  --font-outfit: "Outfit", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-bg: #f5f2ed;
+  --color-ink: #1a1814;
+  --color-muted: #8a8070;
+  --color-accent: #e85d26;
+  --color-warm: #ede8e0;
+  --color-card: #ffffff;
+  --color-border: #e0dbd2;
+}
