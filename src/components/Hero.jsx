@@ -41,7 +41,7 @@ export default function Hero() {
           <p className="font-mono text-[0.68rem] tracking-widest uppercase text-muted mt-1 mb-5">Front-End Developer</p>
           <div className="h-px bg-border mb-5" />
           <div className="flex mb-5">
-            {[["2+", "Yrs Exp"], ["WP", "Expert"], ["SEO", "Ready"]].map(([n, l]) => (
+            {[["2+", "Yrs Exp"], ["WP", "Experienced"], ["SEO", "Ready"]].map(([n, l]) => (
               <div key={l} className="flex-1 text-center py-3 border-r border-border last:border-r-0">
                 <p className="font-playfair text-2xl font-bold">{n}</p>
                 <p className="font-mono text-[0.58rem] tracking-widest uppercase text-muted mt-1">{l}</p>
@@ -60,8 +60,8 @@ export default function Hero() {
       </div>
 
       {/* Bottom stats */}
-      <div className="relative mt-12 flex gap-10 animate-[fadeUp_.7s_1.2s_both] lg:absolute lg:bottom-12 lg:left-16 lg:mt-0">
-        {[["2+", "Years Exp."], ["WP", "Specialist"], ["SEO", "Optimized"]].map(([n, l]) => (
+      <div className="relative mt-0 flex gap-10 animate-[fadeUp_.7s_1.2s_both] lg:absolute lg:bottom-8 lg:left-16 lg:mt-0">
+        {[["2+", "Years Exp."], ["WP", "Experienced"], ["SEO", "Optimized"]].map(([n, l]) => (
           <div key={l}>
             <p className="font-playfair text-3xl font-bold">{n}</p>
             <p className="font-mono text-[0.65rem] tracking-widest uppercase text-muted mt-1">{l}</p>
