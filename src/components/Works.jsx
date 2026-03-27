@@ -73,7 +73,7 @@ export default function Works() {
       </p>
       <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-14">
         <h2 className="font-playfair text-4xl lg:text-5xl leading-tight tracking-tight">
-          Selected <em className="text-accent">Gallery.</em>
+          Selected <em className="text-accent">Works.</em>
         </h2>
         <p className="font-mono text-[0.65rem] tracking-widest uppercase text-white/30">
           {works.length} Projects
