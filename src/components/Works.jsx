@@ -50,7 +50,7 @@ function GalleryCard({ work, delay }) {
           href={work.link}
           target="_blank"
           rel="noreferrer"
-          className="inline-flex items-center gap-1.5 font-mono text-[0.65rem] tracking-widest uppercase text-accent border-b border-accent/30 pb-0.5 w-fit hover:border-accent transition-colors"
+          className="inline-flex items-center gap-1.5 font-mono text-[1.3rem] tracking-widest uppercase text-accent border-b border-accent/30 pb-0.5 w-fit hover:border-accent transition-colors"
         >
           View Project ↗
         </a>
